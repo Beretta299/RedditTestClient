@@ -1,0 +1,19 @@
+
+s
+Capp/src/main/java/com/beretta/reddittestclient/RedditApplication.kt,4\d\4da8f2dd1bb71119a8540b071ffbaf7eee814ed0
+}
+Mapp/src/main/java/com/beretta/reddittestclient/presentation/RedditContract.kt,1\9\19254ceca60bfb7f96b2f0924829d485c72f9707
+~
+Napp/src/main/java/com/beretta/reddittestclient/presentation/RedditPresenter.kt,5\f\5f176875146d417d46621529f04aa3c5d88a653d
+n
+>app/src/main/java/com/beretta/reddittestclient/di/AppModule.kt,6\2\626fcbd9dfcf54a76e59c0fbe2dbca90480da562
+}
+Mapp/src/main/java/com/beretta/reddittestclient/preferences/UserPreferences.kt,6\c\6c81f767ad10960f7542f5ccf3fa87acd79a1b7a
+@
+app/build.gradle,f\4\f4a01d6a4fcb971362ec00a83903fd3902f52164
+q
+Aapp/src/main/java/com/beretta/reddittestclient/di/AppComponent.kt,b\6\b67bcaf9213c8228a5bf7314145e30b829caea8c
+}
+Mapp/src/main/java/com/beretta/reddittestclient/presentation/RedditActivity.kt,c\1\c16f6bdc8dcda96e11bfa96a5da3d74212f1b97d
+P
+ app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
