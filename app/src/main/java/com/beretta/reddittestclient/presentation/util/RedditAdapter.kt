@@ -5,6 +5,7 @@ import android.text.Spannable
 import android.text.SpannableString
 import android.text.SpannableStringBuilder
 import android.text.style.ForegroundColorSpan
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -99,6 +100,13 @@ class RedditAdapter(val context: Context) : RecyclerView.Adapter<RedditAdapter.P
 
                 listener?.openUrl(stringBuilder.toString())
             }
+
+            postImage.setOnLongClickListener(object : View.OnLongClickListener{
+                override fun onLongClick(v: View?): Boolean {
+                    listener?.saveImage(post?.url)
+                    return true
+                }
+            })
         }
 
         private fun setUpNumberOfComments(numComments: Long?): String {

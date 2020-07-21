@@ -1,8 +1,11 @@
 package com.beretta.reddittestclient.presentation
 
+import android.graphics.Bitmap
+import android.net.Uri
 import com.beretta.reddittestclient.arch.MvpPresenter
 import com.beretta.reddittestclient.arch.MvpView
 import com.beretta.reddittestclient.rest.model.RedditPost
+import com.squareup.picasso.Target
 
 interface RedditContract {
 
@@ -24,6 +27,8 @@ interface RedditContract {
         fun checkScrollAutoLoad(lastVisibleItem: Int, lastItemName: String)
 
         fun isItemsLoaded()
+
+        fun loadImage(url: String, target: Target)
     }
 
 }
