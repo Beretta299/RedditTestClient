@@ -1,4 +1,4 @@
-package com.beretta.redditclient.arch
+package com.beretta.reddittestclient.arch
 
 
 open class BasePresenter<T : MvpView> :  MvpPresenter<T>{

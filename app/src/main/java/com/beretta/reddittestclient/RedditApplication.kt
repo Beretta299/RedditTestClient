@@ -3,6 +3,7 @@ package com.beretta.reddittestclient
 import android.app.Application
 import com.beretta.reddittestclient.di.AppComponent
 import com.beretta.reddittestclient.di.AppModule
+import com.beretta.reddittestclient.di.DaggerAppComponent
 
 
 class RedditApplication : Application() {
