@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">RedditTestClient</string>
+    <string name="subreddit_prefix">In:</string>
+    <string name="author_prefix">By</string>
+    <string name="date_zero_suffix">Recently</string>
+    <string name="date_one_suffix">hour ago</string>
+    <string name="date_suffix">hours ago</string>
+    <string name="data_not_loaded">Data not loaded, try to enable internet or refresh with swipe</string>
 </resources>

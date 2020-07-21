@@ -1,17 +1,29 @@
 package com.beretta.reddittestclient.presentation
 
-import androidx.recyclerview.widget.LinearLayoutManager
-import com.beretta.redditclient.arch.MvpPresenter
-import com.beretta.redditclient.arch.MvpView
+import com.beretta.reddittestclient.arch.MvpPresenter
+import com.beretta.reddittestclient.arch.MvpView
+import com.beretta.reddittestclient.rest.model.RedditPost
 
 interface RedditContract {
 
-    interface View : MvpView{
+    interface View : MvpView {
+        fun appendToList(list: List<RedditPost>)
 
+        fun showErrorMessage(error: String)
+
+        fun getItemsCount(): Int
+
+        fun resetList()
+
+        fun showDataNotLoaded()
     }
 
-    interface Presenter : MvpPresenter<View>{
+    interface Presenter : MvpPresenter<View> {
+        fun loadNews(lastItemName: String)
 
+        fun checkScrollAutoLoad(lastVisibleItem: Int, lastItemName: String)
+
+        fun isItemsLoaded()
     }
 
 }

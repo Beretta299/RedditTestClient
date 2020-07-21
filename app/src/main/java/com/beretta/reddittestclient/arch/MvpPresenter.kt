@@ -1,4 +1,4 @@
-package com.beretta.redditclient.arch
+package com.beretta.reddittestclient.arch
 
 interface MvpPresenter<V: MvpView> {
 
